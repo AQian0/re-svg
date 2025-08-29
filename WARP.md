@@ -2,9 +2,9 @@
 
 This file provides guidance to WARP (warp.dev) when working with code in this repository.
 
-# re-svg TypeScript Library
+# re-svg Command-Line Tool
 
-A modern TypeScript library project built with ESM modules, using tsdown for building and vitest for testing. Currently based on the tsdown-starter template with placeholder functionality ready for implementation.
+A modern TypeScript command-line tool for processing and manipulating SVG files. Built with ESM modules, using tsdown for building and vitest for testing.
 
 ## Quick Commands
 
@@ -40,7 +40,7 @@ bun run typecheck
 **Release:**
 ```bash
 bun run release
-# Bumps version with bumpp and publishes to npm
+# Bumps version with bumpp and publishes to npm registry
 ```
 
 ## Project Structure
@@ -88,8 +88,8 @@ The project is configured as an **ESM module** with modern JavaScript features e
 ## Notes
 
 - **Package Manager**: This project uses Bun as the preferred package manager (evident from `bun.lock`)
-- **Current State**: Based on tsdown-starter template with placeholder code ready for actual implementation
-- **Publishing**: Configured for public npm publishing with access set to "public"
+- **Current State**: Command-line tool for processing and manipulating SVG files
+- **Publishing**: Configured for public npm registry publishing with access set to "public" (using `bun publish`)
 - **Code Style**: Uses format-on-save in VSCode (configured in `.vscode/settings.json`)
 
 **Key Tools Documentation:**

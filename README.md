@@ -1,23 +1,56 @@
-# tsdown-starter
+# re-svg
 
-A starter for creating a TypeScript package.
+A command-line tool for processing and manipulating SVG files.
+
+## Installation
+
+Install globally:
+
+```bash
+# Using Bun (recommended)
+bun add -g re-svg
+
+# Using npm
+npm install -g re-svg
+
+# Using yarn
+yarn global add re-svg
+```
 
 ## Development
 
 - Install dependencies:
 
 ```bash
-npm install
+bun install
+```
+
+- Run development mode with watch:
+
+```bash
+bun run dev
 ```
 
 - Run the unit tests:
 
 ```bash
-npm run test
+bun run test
 ```
 
 - Build the library:
 
 ```bash
-npm run build
+bun run build
+```
+
+- Type checking:
+
+```bash
+bun run typecheck
+```
+
+- Release a new version:
+
+```bash
+bun run release
 ```
