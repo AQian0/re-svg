@@ -6,5 +6,6 @@ export default defineConfig([
     platform: 'node',
     dts: true,
     format: 'esm',
+    banner: '#!/usr/bin/env node',
   },
 ])
